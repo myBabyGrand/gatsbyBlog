@@ -1,1 +1,0 @@
-# gatsbyBlog
