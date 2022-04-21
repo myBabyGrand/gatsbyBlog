@@ -6,10 +6,15 @@ const PROFILE_IMAGE_LINK =
   'https://phinf.pstatic.net/contact/20201211_32/1607664562109WYlvy_PNG/image.png?type=s160'
 
 const ProfileImageWrapper = styled.img`
-  width: 120px;
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 50%;
+width: 120px;
+height: 120px;
+margin-bottom: 30px;
+border-radius: 50%;
+
+@media (max-width: 768px) {
+  width: 80px;
+  height: 80px;
+}
 `
 
 const ProfileImage: FunctionComponent = function () {
