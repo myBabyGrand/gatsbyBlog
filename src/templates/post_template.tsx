@@ -27,7 +27,7 @@ const PostTemplate: FunctionComponent<PostTemplateProps> = function ({
 }) {
   const {
     node: {
-      html,
+      html, 
       frontmatter: {
         title,
         summary,
